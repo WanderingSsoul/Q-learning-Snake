@@ -302,8 +302,8 @@ void Draw(short x, short i, short j) {
     win.draw(gg);
 }
 void Draww(AI x) {
-    //this function will display the position on the field to the screen, where it takes about 200 milliseconds per move
-    Sleep(200);
+    //this function will display the position on the field to the screen, where it takes about 80 milliseconds per move
+    Sleep(80);
     win.clear();
     int scoreint = 0;
     for (short i = 0; i < ogrx; i++) {
@@ -465,7 +465,7 @@ void Episode() {
         //let's update our episode status.
         episode = nwmatrix;
         //let's show every thousandth episode in its entirety
-        if (cntepisode % 1000 == 0) {
+        if (cntepisode % 2000 == 0) {
             Draww(nwmatrix);
         }
     }
