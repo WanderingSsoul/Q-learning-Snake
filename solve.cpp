@@ -430,7 +430,7 @@ void Episode() {
         else {
             //if the game is over, we will display 100 times the maximum score that the 
             //snake reached in all episodes, the current chance to choose a random action and also the episode number
-            if(cntepisode % 100 == 0) cout << "Episode " << cntepisode << " Ended, probablity e = " << epsilon << " mx = " << mx << "\n";
+            if(cntepisode % 100 == 0) cout << "Episode " << cntepisode << " is over, probablity e = " << epsilon << " mx = " << mx << "\n";
             updateAI();
             break;
         }
