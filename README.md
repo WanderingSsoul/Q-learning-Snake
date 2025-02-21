@@ -19,6 +19,9 @@ This project is an AI implementation for the Snake game using **Q-learning** and
 Uses basic Q-learning which updates values ​​through an experience buffer that stores the past 200,000 moves from the last episodes.
 The game of snake displays with SFML library.
 
+## 🎥 Demo  
+![Game demo](https://github.com/WanderingSsoul/Q-learning-Snake/raw/main/snake.gif)
+
 ## 👤 Author  
 **Anri Zhan**  
 - 📧 Email: [anrizhan555@gmail.com](mailto:anrizhan555@gmail.com)  
