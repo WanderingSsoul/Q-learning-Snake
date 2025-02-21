@@ -20,7 +20,7 @@ Uses basic Q-learning which updates values ​​through an experience buffer th
 
 ## 👤 Author  
 **Anri Zhan**  
-- 📧 Email: [anrizhan555@example.com](mailto:anrizhan555@gmail.com)  
+- 📧 Email: [anrizhan555@gmail.com](mailto:anrizhan555@gmail.com)  
 - 💼 GitHub: [github.com/WanderingSsoul](https://github.com/Wandering_Ssoul)  
 - 🌐 Telegram: **Wandering_Ssoul**
   
