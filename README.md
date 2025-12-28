@@ -52,14 +52,7 @@ The goal is counted in the first episode where the **maximum length reached duri
 ### Key findings (high level)
 - For small targets (e.g., `L = 10`), the smallest tested buffer performed best
 - As the target length increases, the best `deque_size` shifts toward larger values
-- Larger buffers help for large targets because they preserve rare late-game states, but they can slow down learning for small targets because the buffer contains too many irrelevant situations
-
-### Artifacts
-- Report: **/paper/** (TODO: add PDF or DOCX name)
-- Results table/data: **/experiments/** (TODO: add CSV/table)
-
----
-
+- Larger buffers help for large targets because they preserve rare late-game states, but they can slow down learning for small targets because the buffer contains too many irrelevant situations.
 
 ## 🎥 Demo  
 ![Game demo](https://github.com/WanderingSsoul/Q-learning-Snake/raw/main/snake.gif)
